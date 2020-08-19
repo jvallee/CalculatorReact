@@ -67,11 +67,9 @@ function handleClick(
       case "=":
         memory = memory.concat(displayValue);
         setMemory(memory); //why not working?
-        console.log("memory = ", memory);
         displayValue = String(eval(memory));
         setDisplay(displayValue);
-        console.log("result gets calced here");
-        setOperand("=");
+        setOperand("");
         memory = "";
         operand = "";
         setMemory("");

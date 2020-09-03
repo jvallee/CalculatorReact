@@ -1,7 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## About
-This is a calculator created with react, using hooks. 
+This is a calculator created with react, using hooks. The link to the published/interactive app is [here](https://jvallee.github.io/calculatorreact2/)
 
 
 ## Available Scripts
